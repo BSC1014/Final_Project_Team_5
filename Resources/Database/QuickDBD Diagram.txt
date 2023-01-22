@@ -1,0 +1,68 @@
+unit
+-
+id pk int
+host_id FK >- host.id int
+booking_id FK >- booking.id int
+name string
+neighbourhood_group string
+city string
+state string
+zipcode int
+latitude int
+longitude int
+property_type string
+room_type string
+accommodates int
+bathrooms int
+bedrooms int
+beds int
+bed_type string
+instant_bookable bool
+cancellation_policy string
+require_guest_profile_picture bool
+require_guest_phone_verification bool
+number_of_reviews int
+first_review date
+last_review date
+review_scores_rating int
+review_scores_accuracy int
+review_scores_cleanliness int
+review_scores_checkin int
+review_scores_communication int
+review_scores_location int
+review_scores_value int
+reviews_per_month int
+
+
+host
+-
+id pk int
+name string
+host_since date
+host_listings_count int
+host_location string
+host_response_time string
+host_response_rate int
+host_acceptance_rate int
+host_is_superhost bool
+host_has_profile_pic bool
+host_identity_verified bool
+
+
+booking
+-
+id pk int
+price money
+weekly_price money
+monthly_price money
+guests_included int
+extra_people money
+security_deposit money
+cleaning_fee money
+min_nights int
+max_nights int
+has_availability bool
+availability_30 int
+availability_60 int
+availability_90 int
+availability_365 int
