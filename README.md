@@ -16,6 +16,16 @@ This data was chosen by our team because it was learge enough to perform machine
  - Lane
 ## Process
 
+1. Select a data set.
+2. Decide on question to answer. 
+3. Decide which tools to use.
+4. Split up work among team for deliverable 1.
+   1. Create ERD for soure data. *Nathan*
+   2. Decide on and begin to experiment with machine learning models.  *Blake/Cristal*
+   3. Create README for project.  *Lane*
+   4. Decide on a visual and how to incorporate?
+5. 
+
 
   
 
