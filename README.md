@@ -14,9 +14,8 @@
 The source data - https://www.kaggle.com/datasets/airbnb/seattle - is three csv's and includes information about 3,818 Air B&B listed properties in Seattle WA.  Unit specifics such as number of type of rooms, and neighborhood is included, as well as listing information such as the strictness of the cancellation policy, and wether or not the hosts require a phone verification or guest profile picture.  Importantly the listings aggregated reviews are broken down by category in a 0 to 10 scale, as well as the overall review score in a 0 - 100 scale.
 This data was chosen by our team because it was learge enough to perform machine learning algorithms on.  It also appeared to lend itself well to the question we were trying to post of what factors would most influence the reviewers scores.
 
-### In Raw Form the Three CSV's Are as Follows.
-### 'calendar'
-![image](https://user-images.githubusercontent.com/111530580/213890001-6e73e002-47b8-4a49-b8b9-51e5ec9f9cc0.png)
+### Data Categories After Creation of ERD
+![image](https://user-images.githubusercontent.com/111530580/214310650-2832aa6f-cc3a-471c-bb5b-b4b4c9d1af2a.png)
 
 ## Process
 
@@ -24,30 +23,16 @@ This data was chosen by our team because it was learge enough to perform machine
 2. Decide on question to answer. 
 3. Decide which tools to use.
 4. Split up work among team for deliverable 1.
-   1. Create ERD for soure data. *Nathan*
-   2. Decide on and begin to experiment with machine learning models.  *Blake/Cristal*
+   1. Create ERD for soure data & share it with teammates via AWS. *Nathan*
+   2. Clean data as necessary and begin to experiment with machine learning models to answer topic question.  *Blake/Cristal*
    3. Create README for project.  *Lane*
-   4. Decide on a visual and how to incorporate?
+   4. Decide on a visual and how to incorporate - *TBD*
 
 ## Communication Protocols
 Slack channel for team set up and in use.  
 
 
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-https://www.kaggle.com/datasets/airbnb/seattle
 
 
 
