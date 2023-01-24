@@ -74,8 +74,36 @@ CREATE TABLE "booking" (
      )
 );
 
+CREATE TABLE "calendar" (
+    "id"				int		NOT NULL,
+    "unit_id"			int 	NOT NULL,
+    "date"				date	NULL,
+    "available"			bool	NULL,
+    "price"				money	NULL,
+    CONSTRAINT "pk_calendar" PRIMARY KEY (
+        "id"
+     )
+);
+
+CREATE TABLE "reviews" (
+    "id"				int		NOT NULL,
+    "unit_id"			int 	NOT NULL,
+    "date"				date	NULL,
+    "reviewer_id"		int		NULL,
+    "reviewer_name"		varchar(128) NULL,
+    CONSTRAINT "pk_reviews" PRIMARY KEY (
+        "id"
+     )
+);
+
 ALTER TABLE "unit" ADD CONSTRAINT "fk_unit_host_id" FOREIGN KEY("host_id")
 REFERENCES "host" ("id");
 
 ALTER TABLE "unit" ADD CONSTRAINT "fk_unit_booking_id" FOREIGN KEY("booking_id")
 REFERENCES "booking" ("id");
+
+ALTER TABLE "calendar" ADD CONSTRAINT "fk_calendar_unit_id" FOREIGN KEY("unit_id")
+REFERENCES "unit" ("id");
+
+ALTER TABLE "reviews" ADD CONSTRAINT "fk_reviews_unit_id" FOREIGN KEY("unit_id")
+REFERENCES "unit" ("id");

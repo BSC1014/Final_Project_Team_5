@@ -66,3 +66,21 @@ availability_30 int
 availability_60 int
 availability_90 int
 availability_365 int
+
+
+calendar
+-
+id pk int 
+unit_id FK >- unit.id int
+date date
+available bool
+price money
+
+
+reviews
+-
+id pk int
+unit_id FK >- unit.id int
+date date
+reviewer_id int
+reviewer_name string
