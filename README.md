@@ -17,7 +17,7 @@ This data was chosen by our team because it was learge enough to perform machine
 ### Data Categories After Creation of ERD
 ![image](https://user-images.githubusercontent.com/111530580/214310650-2832aa6f-cc3a-471c-bb5b-b4b4c9d1af2a.png)
 
-## Process
+## Process & Communication Protocols 
 
 1. Select a data set: see "Source Data" section for data set. 
 2. Decide on question to answer: See "Topic" section for our thesis. 
@@ -28,7 +28,6 @@ This data was chosen by our team because it was learge enough to perform machine
    3. Create README for project.  *Lane*
    4. Decide on a visual and how to incorporate - *TBD*
 
-## Communication Protocols
-Slack channel for team set up and in use.  
+
 
 
