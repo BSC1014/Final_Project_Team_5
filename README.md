@@ -19,12 +19,12 @@ This data was chosen by our team because it was learge enough to perform machine
 
 ## Process
 
-1. Select a data set.
-2. Decide on question to answer. 
-3. Decide which tools to use.
-4. Split up work among team for deliverable 1.
-   1. Create ERD for soure data & share it with teammates via AWS. *Nathan*
-   2. Clean data as necessary and begin to experiment with machine learning models to answer topic question.  *Blake/Cristal*
+1. Select a data set: see "Source Data" section for data set. 
+2. Decide on question to answer: See "Topic" section for our thesis. 
+3. Decide which tools to use: Tools used are Python (for the ETL and ML codes), Postgres/AWS, and potentially vislib or a website for the visualization. 
+4. Split up work among team for deliverable 1. *Nathan*
+   1. Create ERD for soure data & share it with teammates via AWS. This is done and can be visualized by the above ERD. Additionaly the proof of concept code is done to pull data into python from AWS which will be incorporated into the final code. *Blake & Cristal* 
+   2. Clean data as necessary and begin to experiment with machine learning models to answer topic question.  See ETL and ML IPYNB codes for ML testing and data clensing. *Blake and Cristal* 
    3. Create README for project.  *Lane*
    4. Decide on a visual and how to incorporate - *TBD*
 
