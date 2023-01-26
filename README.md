@@ -1,6 +1,36 @@
 # Final_Project_Team_5 (Project: Fogduckers) 
+[![Seattle.png](https://i.postimg.cc/cLFkXZFD/Seattle.png)](https://postimg.cc/PC8MqGsZ)
 
-https://www.kaggle.com/datasets/airbnb/seattle
+## The Team
+ - Cristal 
+ - Blake
+ - Nathan
+ - Lane
+
+## Topic
+  Using a data set for vacation rental properties in Seattle, our team aims to use a machine learning model to see if there is correlation between a properties attributes and user reviews.  Are user expieriences based on factors measured with hard data?  Are there underlying reasons for reviews not seen in the numbers? Can seemingly unrelated attributes such as number of bedrooms or bathrooms afffect a score?
+
+## Source Data
+The source data - https://www.kaggle.com/datasets/airbnb/seattle - is three csv's and includes information about 3,818 Air B&B listed properties in Seattle WA.  Unit specifics such as number of type of rooms, and neighborhood is included, as well as listing information such as the strictness of the cancellation policy, and wether or not the hosts require a phone verification or guest profile picture.  Importantly the listings aggregated reviews are broken down by category in a 0 to 10 scale, as well as the overall review score in a 0 - 100 scale.
+This data was chosen by our team because it was learge enough to perform machine learning algorithms on.  It also appeared to lend itself well to the question we were trying to post of what factors would most influence the reviewers scores.
+
+### Data Categories After Creation of ERD
+![image](https://user-images.githubusercontent.com/111530580/214310650-2832aa6f-cc3a-471c-bb5b-b4b4c9d1af2a.png)
+
+## Process
+
+1. Select a data set.
+2. Decide on question to answer. 
+3. Decide which tools to use.
+4. Split up work among team for deliverable 1.
+   1. Create ERD for soure data & share it with teammates via AWS. *Nathan*
+   2. Clean data as necessary and begin to experiment with machine learning models to answer topic question.  *Blake/Cristal*
+   3. Create README for project.  *Lane*
+   4. Decide on a visual and how to incorporate - *TBD*
+
+## Communication Protocols
+Slack channel for team set up and in use.  
+
 
 test
 Presentation: 
@@ -58,22 +88,6 @@ schema
 ✓ Draft machine learning module is
 connected to the provisional database
 
-Requirements for Segment 1
 
-Segment 1 is worth 33% of your overall grade for the Final Project.
-Before you submit the Segment 1 deliverable, make sure that you have all the pieces in place by reviewing the requirements.
-Content (60 points)
 
-In this segment, the project deliverable includes the following:
-A detailed README.md file (20 points)
-At least four commits per team member (20 points)
-A database that stores at least two tables (or collections) for the project (20 points)
-We encourage you to choose and explore a dataset before committing to an idea for your project. Designing a database to hold your data will often reveal potential project ideas that you might not have thought of before. Try to spend the majority of this segment focused on digging into the data that you have and understanding any valuable insights that it might hold.
-While working with the data, be sure to make regular commits. Each team member should have at least four commits by the end of the segment. And every time that the team meets, you should start and end the session by spending a few minutes reviewing and updating the README.md file. This file should always reflect the current status of the project, any specific needs or challenges that exist, and the plans for future work. Make sure to include links to your data, your slide deck, and any other important references. Don’t worry if the README.md file doesn’t yet appear worthy of showing in a job interview. This file will reflect the status of the project—so once the project is showcase ready, the README.md file will be, too.
-Presentation (40 points)
 
-In this segment, the presentation deliverable includes the following:
-The selected topic and the reasoning for that selection (20 points)
-A description of the data (20 points)
-The questions that the team plans to answer with the project (20 points)
-During this early phase, focus on outlining and documenting your ideas, questions, and data. You don’t need to have a slide deck at this point. If the team feels more comfortable outlining this information in the README.md file, that’s perfectly acceptable. This kind of documentation and outline is critical not only for the final presentation but also to organize and align all the team members on the goals and deadlines of the project.
