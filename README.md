@@ -31,7 +31,11 @@ This data was chosen by our team because it was learge enough to perform machine
 ## Communication Protocols
 Slack channel for team set up and in use.  
 
-
+Tasks Accomplished Week 2
+ - Create Visuals including mapped locations of properties in data set and charts displaying relationships between review scores and different attributes.
+ - Preliminary work on neural network, experiment with nodes and layers.
+ - Update README.md.
+ 
 
 
 
