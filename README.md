@@ -14,7 +14,9 @@
 The source data - https://www.kaggle.com/datasets/airbnb/seattle - is three csv's and includes information about 3,818 Air B&B listed properties in Seattle WA.  Unit specifics such as number of type of rooms, and neighborhood is included, as well as listing information such as the strictness of the cancellation policy, and wether or not the hosts require a phone verification or guest profile picture.  Importantly the listings aggregated reviews are broken down by category in a 0 to 10 scale, as well as the overall review score in a 0 - 100 scale.
 This data was chosen by our team because it was learge enough to perform machine learning algorithms on.  It also appeared to lend itself well to the question we were trying to post of what factors would most influence the reviewers scores.
 
-### Data Categories After Creation of ERD
+### Data Storage
+The dataset columns were reviewed for relevance and split into seperate tables for any one-to-many relationships. The CSVs were cleaned up as needed to complete the import process into the database. A database diagram was created and Postgres database was created on AWS.
+
 ![image](https://user-images.githubusercontent.com/111530580/214310650-2832aa6f-cc3a-471c-bb5b-b4b4c9d1af2a.png)
 
 ## Process & Communication Protocols 
