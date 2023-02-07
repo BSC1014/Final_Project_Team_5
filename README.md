@@ -23,7 +23,7 @@ The dataset columns were reviewed for relevance and split into seperate tables f
 
 ![image](https://user-images.githubusercontent.com/111530580/214310650-2832aa6f-cc3a-471c-bb5b-b4b4c9d1af2a.png)
 
-***
+
 ## Machine Learning
 ***
 ### Extract Transform Load (ETL.PY File)
@@ -40,7 +40,7 @@ The dataset columns were reviewed for relevance and split into seperate tables f
 
 - Part four exported the dataframe into an encoded .csv file titled "ml_final_data.csv" to be picked up by our machine learning and neural network models. 
 
-***
+
 ### Machine Learning (ML.IPYNB File)
 ***
 - Next, we pulled the "ml_final_data.csv" into our ML model and conducted various tests to help determine if any machine learning model was up to the task of predicting ratings on Air BnBs accurately. Results as follows: 
@@ -75,7 +75,7 @@ Easy Ensemble:
 
 ![Screen Shot 2023-02-01 at 10 05 11 PM](https://user-images.githubusercontent.com/111612130/216221402-55c5afdd-9e00-4e8b-afc0-1755aa2396f4.png)
 
-***
+
 ### Neural Networks and Predicting User Inputs (NN.ipynb & NN_tuner.ipynb files)
 ***
 - Finally we decided to try the Neural Network route. Upon testing we discovered we were able to get accuracy ratings of around 90% with minimal loss which was quite higher than other machine learning models we tried. 
@@ -93,7 +93,7 @@ Easy Ensemble:
 -We then created a functionality whereby a user could save a CSV file and import it into the model whereby it would make a prediction and save a separate CSV file with the results: 
 
 ![Screen Shot 2023-02-01 at 10 13 06 PM](https://user-images.githubusercontent.com/111612130/216222461-c5b8a8ce-0340-458d-8a6d-52391de652ec.png)
-***
+
 ### ML Future improvements/lessons learned 
 ***
 - was 90% accurate but predicted all the samples to be good ratings, a more aggressive prediction scheme for 94% ratings lead to a more useful model with 80% accuracy. 
