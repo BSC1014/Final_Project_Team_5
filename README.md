@@ -1,4 +1,5 @@
-# Final_Project_Team_5 
+# Final_Project_Team_5
+***
 [![Seattle.png](https://i.postimg.cc/cLFkXZFD/Seattle.png)](https://postimg.cc/PC8MqGsZ)
 
 Link to Presentation: https://docs.google.com/presentation/d/1chuVmRzdd0Rz6CBDThaCUWBZ404QFhylXdZKS13sWS8/edit?usp=sharing
@@ -6,19 +7,23 @@ Link to Presentation: https://docs.google.com/presentation/d/1chuVmRzdd0Rz6CBDTh
 Link to Tableau Dashboard: https://public.tableau.com/app/profile/cristal.urquiza/viz/WhatFactorsAffectReviewScoreRatingsforAirbnbsinSeattle/Story1?publish=yes
 
 ## The Team
+***
  - Cristal 
  - Blake
  - Nathan
  - Lane
 
 ## Topic
+***
   Using a data set for vacation rental properties in Seattle, our team aims to use a machine learning model to see if there is correlation between a properties attributes and user reviews.  Are user expieriences based on factors measured with hard data?  Are there underlying reasons for reviews not seen in the numbers? Can seemingly unrelated attributes such as number of bedrooms or bathrooms afffect a score?
 
 ## Source Data
+***
 The source data - https://www.kaggle.com/datasets/airbnb/seattle - is three csv's and includes information about 3,818 Air B&B listed properties in Seattle WA.  Unit specifics such as number of type of rooms, and neighborhood is included, as well as listing information such as the strictness of the cancellation policy, and wether or not the hosts require a phone verification or guest profile picture.  Importantly the listings aggregated reviews are broken down by category in a 0 to 10 scale, as well as the overall review score in a 0 - 100 scale.
 This data was chosen by our team because it was learge enough to perform machine learning algorithms on.  It also appeared to lend itself well to the question we were trying to post of what factors would most influence the reviewers scores.
 
 ### Data Storage
+***
 The dataset columns were reviewed for relevance and split into seperate tables for any one-to-many relationships. The CSVs were cleaned up as needed to complete the import process into the database. A database diagram was created and Postgres database was created on AWS.
 
 ![image](https://user-images.githubusercontent.com/111530580/214310650-2832aa6f-cc3a-471c-bb5b-b4b4c9d1af2a.png)
@@ -99,6 +104,7 @@ Easy Ensemble:
 - was 90% accurate but predicted all the samples to be good ratings, a more aggressive prediction scheme for 94% ratings lead to a more useful model with 80% accuracy. 
 
 ### Data Cleaning/ ETL
+***
 Data was cleaned from the original three csv's that was provided from the Kaggle Seattle Data: https://www.kaggle.com/datasets/airbnb/seattle
 
 It was imported, and then the info, the nulls, and the mean of the nulls was checked to gather as much information about each csv: 
@@ -149,6 +155,7 @@ At the end, a cleaned csv file was created for the listing file since that was t
 In the future, further assessment could be done to use loc and iloc to figure out using the comments for transit for example had a factor for a higher rating score. 
 
 ## Tableau Visualizations
+***
 
 Link for the story board on Tableau Public: https://public.tableau.com/app/profile/cristal.urquiza/viz/WhatFactorsAffectReviewScoreRatingsforAirbnbsinSeattle/Story1?publish=yes
 
@@ -184,7 +191,8 @@ Lastly, host availability and host acceptance rate was viewed compared against r
 
 What can further be analyzed and discussed can be what determines a host in becoming a super host. We can can see if having more host listings provides an advantage and whether it can be attribute to having more experience, and thus could provide better service, or whether it can be a bad thing and hurt your ratings for not being able to be as attentive with fewer, or one. One can also further look into neighborhoods, and from the neighborhoods that are doing better than others, what are the location and the demographic differences, and what experience is offered there that the other neighborhoods don't offer. Many other assessments were provided throughout this portion of analysis, and it'll not only further answer the question of which factors contribute to a good rating score, but one can further delve into the question of what experience is the consumer looking for from Airbnbs in Seattle. 
 
-## Process & Communication Protocols 
+## Process & Communication Protocols
+***
 
 1. Select a data set: see "Source Data" section for data set. 
 2. Decide on question to answer: See "Topic" section for our thesis. 
