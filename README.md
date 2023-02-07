@@ -94,7 +94,7 @@ Easy Ensemble:
 
 ![Screen Shot 2023-02-01 at 10 13 06 PM](https://user-images.githubusercontent.com/111612130/216222461-c5b8a8ce-0340-458d-8a6d-52391de652ec.png)
 ***
-### Future improvements/lessons learned 
+### ML Future improvements/lessons learned 
 ***
 - was 90% accurate but predicted all the samples to be good ratings, a more aggressive prediction scheme for 94% ratings lead to a more useful model with 80% accuracy. 
 
