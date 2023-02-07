@@ -1,4 +1,4 @@
-# Final_Project_Team_5 (Project: Fogduckers) 
+# Final_Project_Team_5 
 [![Seattle.png](https://i.postimg.cc/cLFkXZFD/Seattle.png)](https://postimg.cc/PC8MqGsZ)
 
 Link to Presentation: https://docs.google.com/presentation/d/1chuVmRzdd0Rz6CBDThaCUWBZ404QFhylXdZKS13sWS8/edit?usp=sharing
