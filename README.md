@@ -29,9 +29,8 @@ The dataset columns were reviewed for relevance and split into seperate tables f
 ![image](https://user-images.githubusercontent.com/111530580/214310650-2832aa6f-cc3a-471c-bb5b-b4b4c9d1af2a.png)
 
 
-## Machine Learning
-***
-### Extract Transform Load (ETL.PY File)
+
+### Machine Learning Extract Transform Load (ETL.PY File)
 ***
 - Part one of the ETL.PY script was to pull in the data from an AWS postgres sever. It was then transformed into a few data frames namely the "Unit" and the "host" dataframes. Those data frames were then merged to create our main dataframe for our machine learning model. Example below: 
 
