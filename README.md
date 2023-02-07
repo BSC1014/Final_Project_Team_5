@@ -47,7 +47,7 @@ The dataset columns were reviewed for relevance and split into seperate tables f
 
 ### Machine Learning (ML.IPYNB File)
 ***
-- Next, we pulled the "ml_final_data.csv" into our ML model and conducted various tests to help determine if any machine learning model was up to the task of predicting ratings on Air BnBs accurately. Results as follows: 
+- Next, we pulled the "ml_final_data.csv" into our ML model and conducted various tests to help determine if any machine learning model was up to the task of predicting ratings on Air BnBs accurately. We broke the training and testing data down using train test split. Results as follows: 
 
 Oversampling: 
 
